@@ -1,4 +1,7 @@
 numpy==1.23.5
 numba
+scipy
 matplotlib
 librosa
+openai-whisper
+pydub

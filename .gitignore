@@ -1,3 +1,9 @@
 files/
 __pycache__/
 *.wav
+*.txt
+*.idea
+*.json
+*.srt
+*.tsv
+*.vtt
