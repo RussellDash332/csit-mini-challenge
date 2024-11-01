@@ -7,3 +7,5 @@ __pycache__/
 *.srt
 *.tsv
 *.vtt
+
+!oct-2024/*/*.txt
