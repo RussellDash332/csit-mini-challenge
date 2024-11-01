@@ -1,0 +1,12 @@
+FROM python:3.9
+
+ENV API_URL="https://u8whitimu7.execute-api.ap-southeast-1.amazonaws.com/prod/"
+ENV OUT_DIR="/workspace/"
+
+WORKDIR /workspace
+
+COPY ../part2 /workspace
+
+RUN pip install -r requirements.txt
+
+ENTRYPOINT ["python", "main.py"]
